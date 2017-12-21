@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/click1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="可点击 " />
+
+                    <CheckBox
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="文字上 " />
+                </LinearLayout>
+
+                <com.qb.code.stepview.StepView
+                    android:id="@+id/step1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#21201D"
+                    app:count="2"
+                    app:line_length="fixed_length"
+                    app:line_stroke_width="1dp"
+                    app:line_to_top_margin="18dp"
+                    app:margin="90dp"
+                    app:max_dot_count="5"
+                    app:step="one"
+                    app:text_size="12sp"
+                    app:text_to_bottom_margin="8dp" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/click2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="可点击 " />
+
+                    <CheckBox
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="文字上 " />
+                </LinearLayout>
+
+                <com.qb.code.stepview.StepView
+                    android:id="@+id/step2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#21201D"
+                    app:count="3"
+                    app:line_length="fixed_length"
+                    app:line_stroke_width="1dp"
+                    app:line_to_top_margin="18dp"
+                    app:margin="90dp"
+                    app:max_dot_count="5"
+                    app:step="two"
+                    app:text_size="12sp"
+                    app:text_to_bottom_margin="8dp" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/click3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="可点击 " />
+
+                    <CheckBox
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="文字上 " />
+                </LinearLayout>
+
+                <com.qb.code.stepview.StepView
+                    android:id="@+id/step3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#21201D"
+                    app:count="4"
+                    app:line_length="fixed_length"
+                    app:line_stroke_width="1dp"
+                    app:line_to_top_margin="18dp"
+                    app:margin="90dp"
+                    app:max_dot_count="5"
+                    app:step="three"
+                    app:text_location="up"
+                    app:text_size="12sp"
+                    app:text_to_bottom_margin="8dp" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/click4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="可点击 " />
+
+                    <CheckBox
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="文字上 " />
+                </LinearLayout>
+
+                <com.qb.code.stepview.StepView
+                    android:id="@+id/step4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#21201D"
+                    app:count="5"
+                    app:line_length="fixed_length"
+                    app:line_stroke_width="1dp"
+                    app:line_to_top_margin="18dp"
+                    app:margin="90dp"
+                    app:max_dot_count="5"
+                    app:step="four"
+                    app:text_location="up"
+                    app:text_size="12sp"
+                    app:text_to_bottom_margin="8dp" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/click5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="可点击 " />
+
+                    <CheckBox
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="文字上 " />
+                </LinearLayout>
+
+                <com.qb.code.stepview.StepView
+                    android:id="@+id/step5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#21201D"
+                    app:count="5"
+                    app:line_stroke_width="1dp"
+                    app:line_to_top_margin="18dp"
+                    app:margin="90dp"
+                    app:step="five"
+                    app:text_size="12sp"
+                    app:text_to_bottom_margin="8dp" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/click6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="可点击 " />
+
+                    <CheckBox
+                        android:id="@+id/text6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="文字上 " />
+                </LinearLayout>
+
+                <com.qb.code.stepview.StepView
+                    android:id="@+id/step6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#21201D"
+                    app:count="4"
+                    app:line_stroke_width="1dp"
+                    app:line_to_top_margin="18dp"
+                    app:margin="90dp"
+                    app:step="five"
+                    app:text_size="12sp"
+                    app:text_to_bottom_margin="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
